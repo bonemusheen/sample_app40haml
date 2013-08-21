@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-#ruby-gemset=railstutorial_rails_4_0
+#ruby-gemset=rails_4_0
 
 gem 'rails', '4.0.0'
 gem 'haml', '4.0.3'
