@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=rails_4_0
 
 gem 'rails', '4.0.0'
+gem 'pg', '0.16.0'
 gem 'puma', '2.5.1'
 gem 'haml', '4.0.3'
 gem 'bootstrap-sass', '2.3.2.1'
@@ -13,7 +14,6 @@ gem 'bootstrap-will_paginate', '0.0.9'
 gem 'jquery-turbolinks', '1.0.0'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.14.0'
 end
 
@@ -37,6 +37,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.16.0'
   gem 'rails_12factor', '0.0.2'
 end
