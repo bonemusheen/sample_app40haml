@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=rails_4_0
 
 gem 'rails', '4.0.0'
+gem 'puma', '2.5.1'
 gem 'haml', '4.0.3'
 gem 'bootstrap-sass', '2.3.2.1'
 gem 'bcrypt-ruby', '3.0.1'
